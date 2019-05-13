@@ -31,8 +31,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -41,5 +39,23 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Rwanda Tyler Font.ttf</string>
+	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>necesita acceder a la ubicacion 1</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>necesita acceder a la ubicacion 2</string>
+	<key>NSLocationUsageDescription</key>
+	<string>necesita acceder a la ubicacion 3</string>
+	<key>NSCameraUsageDescription</key>
+	<string>necesita acceder a la camara</string>
+    
+    
+    <key>CFBundleURLTypes</key> <array> <dict> <key>CFBundleURLSchemes</key> <array> <string>fb689576988129045</string> </array> </dict> </array> <key>FacebookAppID</key> <string>689576988129045</string> <key>FacebookDisplayName</key> <string>Sargazapp</string>
+    
+    <key>LSApplicationQueriesSchemes</key> <array> <string>fbapi</string> <string>fb-messenger-share-api</string> <string>fbauth2</string> <string>fbshareextension</string> </array>
+    
 </dict>
 </plist>

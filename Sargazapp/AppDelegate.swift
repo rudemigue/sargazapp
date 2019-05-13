@@ -7,17 +7,84 @@
 //
 
 import UIKit
+import Firebase
+
+import FBSDKCoreKit
+//import FBSDKLoginKit
+import FacebookCore
 
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    /////////
+    fileprivate var containerVC = ContainerVC()
+    
+    var MenuContainerVC: ContainerVC {
+        return containerVC
+        
+      
+        
+       // import FBSDKCoreKit
+        
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+            FirebaseApp.configure()
+            containerVC = ContainerVC()
+            
+            window?.rootViewController = containerVC
+            window?.makeKeyAndVisible()
+            
+            /*ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+             
+              let handled: Bool = ApplicationDelegate.shared.application(application, open: url, sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String, annotation: options[UIApplication.OpenURLOptionsKey.annotation])
+             
+             */
+            // Add any custom logic here.
+            
+            return true
+        }
+        
+        func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+            
+         //   let handled: Bool = ApplicationDelegate.shared.application(application, open: url, sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String, annotation: options[UIApplication.OpenURLOptionsKey.annotation])
+            // Add any custom logic here.kjk
+            //return handled
+        }
+  
+        
+    }
+    ////////
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //////////
+       // FIRApp.configure()
+          FirebaseApp.configure()
+        
+        containerVC = ContainerVC()
+        
+        window?.rootViewController = containerVC
+        window?.makeKeyAndVisible()
+        /////
+       // ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        // Add any custom logic here.
+        
+        ///////
         return true
     }
+    
+    
+    func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+    //    let handled: Bool = ApplicationDelegate.shared.application(application, open: url, sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String, annotation: options[UIApplication.OpenURLOptionsKey.annotation])
+        // Add any custom logic here.
+        //return handled
+        return true
+    }
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -40,7 +107,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    //////
+    class func getAppDelegate() -> AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
+    //////
+    
 
-
+    
+    
 }
 

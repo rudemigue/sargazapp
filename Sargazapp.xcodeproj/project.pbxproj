@@ -7,21 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600DABE62286A677009740C4 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DABE42286A677009740C4 /* Alertable.swift */; };
+		600DABE72286A677009740C4 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DABE52286A677009740C4 /* CenterVCDelegate.swift */; };
+		6014749D22885DE80070E849 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6014749C22885DE80070E849 /* Bolts.framework */; };
+		603673532288E15E00C5B9B0 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 603673522288E15E00C5B9B0 /* iCarousel.m */; };
+		603673562288F22B00C5B9B0 /* WalkThroughCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603673542288F22A00C5B9B0 /* WalkThroughCollectionViewCell.xib */; };
+		603673572288F22B00C5B9B0 /* WalkThroughCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603673552288F22A00C5B9B0 /* WalkThroughCollectionViewCell.swift */; };
+		603673592288F36100C5B9B0 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603673582288F36100C5B9B0 /* UPCarouselFlowLayout.swift */; };
 		60C8663E2285C24100C581C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8663D2285C24100C581C6 /* AppDelegate.swift */; };
-		60C866402285C24100C581C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8663F2285C24100C581C6 /* ViewController.swift */; };
 		60C866432285C24100C581C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C866412285C24100C581C6 /* Main.storyboard */; };
-		60C866452285C24400C581C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C866442285C24400C581C6 /* Assets.xcassets */; };
 		60C866482285C24400C581C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C866462285C24400C581C6 /* LaunchScreen.storyboard */; };
+		60C866512285D17000C581C6 /* Rwanda Tyler Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60C866502285D14300C581C6 /* Rwanda Tyler Font.ttf */; };
+		60C8665E228603CF00C581C6 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8665D228603CF00C581C6 /* RoundedShadowButton.swift */; };
+		60C86664228680D600C581C6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C86663228680D600C581C6 /* HomeVC.swift */; };
+		60C86666228682D900C581C6 /* UsosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C86665228682D900C581C6 /* UsosVC.swift */; };
+		60C86668228683D800C581C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C86667228683D700C581C6 /* Assets.xcassets */; };
+		60C8666A22868E5400C581C6 /* PlayaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8666922868E5400C581C6 /* PlayaVC.swift */; };
+		60C8666E228692AE00C581C6 /* RoundedShadowButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8666D228692AE00C581C6 /* RoundedShadowButton2.swift */; };
+		60CF02B12286B27B0027C4AA /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02AF2286B27B0027C4AA /* UIViewExt.swift */; };
+		60CF02B22286B27B0027C4AA /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02B02286B27B0027C4AA /* UIViewControllerExt.swift */; };
+		60CF02B42286B3EA0027C4AA /* RoundedShadowButton3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02B32286B3EA0027C4AA /* RoundedShadowButton3.swift */; };
+		60CF02B62286C1AD0027C4AA /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02B52286C1AD0027C4AA /* ContainerVC.swift */; };
+		60CF02B92286C3D70027C4AA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02B72286C3D60027C4AA /* LoginVC.swift */; };
+		60CF02BA2286C3D70027C4AA /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02B82286C3D60027C4AA /* LeftSidePanelVC.swift */; };
+		60CF02BC2286C8750027C4AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60CF02BB2286C8750027C4AA /* GoogleService-Info.plist */; };
+		60CF02C2228739150027C4AA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02C0228739150027C4AA /* DataService.swift */; };
+		60CF02C3228739150027C4AA /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02C1228739150027C4AA /* UpdateService.swift */; };
+		60CF02C52287BDD70027C4AA /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02C42287BDD70027C4AA /* RoundImageView.swift */; };
+		60CF02C72287CA210027C4AA /* mapaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02C62287CA210027C4AA /* mapaVC.swift */; };
+		60CF02CF2287CFA90027C4AA /* textfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02CE2287CFA90027C4AA /* textfield.swift */; };
+		60CF02D12287E9BD0027C4AA /* registroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02D02287E9BC0027C4AA /* registroVC.swift */; };
+		60CF02D32287EB240027C4AA /* reportarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CF02D22287EB240027C4AA /* reportarVC.swift */; };
+		96A88FCBB093649ECE7D6E5B /* Pods_Sargazapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26FB2AFDDDB5DA889DF0178 /* Pods_Sargazapp.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6014749B22885DE10070E849 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		37B76F8CD2C427722906B26F /* Pods-Sargazapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sargazapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sargazapp/Pods-Sargazapp.release.xcconfig"; sourceTree = "<group>"; };
+		600DABE42286A677009740C4 /* Alertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		600DABE52286A677009740C4 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		6014747422885B7A0070E849 /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6014747622885BA10070E849 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6014747822885BB20070E849 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6014747A22885BC20070E849 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6014749C22885DE80070E849 /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6014749E228864190070E849 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		601474A0228867D40070E849 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		603673502288E15D00C5B9B0 /* Sargazapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sargazapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		603673512288E15E00C5B9B0 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		603673522288E15E00C5B9B0 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		603673542288F22A00C5B9B0 /* WalkThroughCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalkThroughCollectionViewCell.xib; sourceTree = "<group>"; };
+		603673552288F22A00C5B9B0 /* WalkThroughCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughCollectionViewCell.swift; sourceTree = "<group>"; };
+		603673582288F36100C5B9B0 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
 		60C8663A2285C24100C581C6 /* Sargazapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sargazapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C8663D2285C24100C581C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60C8663F2285C24100C581C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60C866422285C24100C581C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		60C866442285C24400C581C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60C866472285C24400C581C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60C866492285C24400C581C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C866502285D14300C581C6 /* Rwanda Tyler Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rwanda Tyler Font.ttf"; sourceTree = "<group>"; };
+		60C8665D228603CF00C581C6 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		60C86663228680D600C581C6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		60C86665228682D900C581C6 /* UsosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsosVC.swift; sourceTree = "<group>"; };
+		60C86667228683D700C581C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		60C8666922868E5400C581C6 /* PlayaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayaVC.swift; sourceTree = "<group>"; };
+		60C8666D228692AE00C581C6 /* RoundedShadowButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton2.swift; sourceTree = "<group>"; };
+		60CF02AF2286B27B0027C4AA /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		60CF02B02286B27B0027C4AA /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		60CF02B32286B3EA0027C4AA /* RoundedShadowButton3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton3.swift; sourceTree = "<group>"; };
+		60CF02B52286C1AD0027C4AA /* ContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContainerVC.swift; path = "../../../carpeta sin título 2/ContainerVC.swift"; sourceTree = "<group>"; };
+		60CF02B72286C3D60027C4AA /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = "../../../carpeta sin título 2/LoginVC.swift"; sourceTree = "<group>"; };
+		60CF02B82286C3D60027C4AA /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftSidePanelVC.swift; path = "../../../carpeta sin título 2/LeftSidePanelVC.swift"; sourceTree = "<group>"; };
+		60CF02BB2286C8750027C4AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60CF02C0228739150027C4AA /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		60CF02C1228739150027C4AA /* UpdateService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
+		60CF02C42287BDD70027C4AA /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundImageView.swift; path = "../../../ride-share-source original/htchhkr-development/RoundImageView.swift"; sourceTree = "<group>"; };
+		60CF02C62287CA210027C4AA /* mapaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapaVC.swift; sourceTree = "<group>"; };
+		60CF02CE2287CFA90027C4AA /* textfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textfield.swift; sourceTree = "<group>"; };
+		60CF02D02287E9BC0027C4AA /* registroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registroVC.swift; sourceTree = "<group>"; };
+		60CF02D22287EB240027C4AA /* reportarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reportarVC.swift; sourceTree = "<group>"; };
+		60CF02D4228816C50027C4AA /* Sargazapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sargazapp.entitlements; sourceTree = "<group>"; };
+		E26FB2AFDDDB5DA889DF0178 /* Pods_Sargazapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sargazapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF675C6D93EE8124759F4D7 /* Pods-Sargazapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sargazapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sargazapp/Pods-Sargazapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +107,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6014749D22885DE80070E849 /* Bolts.framework in Frameworks */,
+				96A88FCBB093649ECE7D6E5B /* Pods_Sargazapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52F9023994BFDBDC8F63E810 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				601474A0228867D40070E849 /* FBSDKCoreKit.framework */,
+				6014749E228864190070E849 /* FBSDKLoginKit.framework */,
+				6014749C22885DE80070E849 /* Bolts.framework */,
+				6014747A22885BC20070E849 /* FBSDKShareKit.framework */,
+				6014747822885BB20070E849 /* FBSDKLoginKit.framework */,
+				6014747622885BA10070E849 /* FBSDKCoreKit.framework */,
+				6014747422885B7A0070E849 /* Bolts.framework */,
+				E26FB2AFDDDB5DA889DF0178 /* Pods_Sargazapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		600DABE32286A65A009740C4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				600DABE42286A677009740C4 /* Alertable.swift */,
+				600DABE52286A677009740C4 /* CenterVCDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		60C866312285C24100C581C6 = {
 			isa = PBXGroup;
 			children = (
 				60C8663C2285C24100C581C6 /* Sargazapp */,
 				60C8663B2285C24100C581C6 /* Products */,
+				EB35899A6F68703F97842C3B /* Pods */,
+				52F9023994BFDBDC8F63E810 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +160,90 @@
 		60C8663C2285C24100C581C6 /* Sargazapp */ = {
 			isa = PBXGroup;
 			children = (
-				60C8663D2285C24100C581C6 /* AppDelegate.swift */,
-				60C8663F2285C24100C581C6 /* ViewController.swift */,
+				60CF02D4228816C50027C4AA /* Sargazapp.entitlements */,
+				60CF02BF228738C10027C4AA /* Services */,
+				60CF02BB2286C8750027C4AA /* GoogleService-Info.plist */,
+				603673582288F36100C5B9B0 /* UPCarouselFlowLayout.swift */,
+				603673552288F22A00C5B9B0 /* WalkThroughCollectionViewCell.swift */,
+				603673542288F22A00C5B9B0 /* WalkThroughCollectionViewCell.xib */,
 				60C866412285C24100C581C6 /* Main.storyboard */,
-				60C866442285C24400C581C6 /* Assets.xcassets */,
+				60C8663D2285C24100C581C6 /* AppDelegate.swift */,
 				60C866462285C24400C581C6 /* LaunchScreen.storyboard */,
 				60C866492285C24400C581C6 /* Info.plist */,
+				60CF02AE2286B25F0027C4AA /* Extensions */,
+				600DABE32286A65A009740C4 /* Protocols */,
+				60C8666222867FE000C581C6 /* controller */,
+				60C866522285D75C00C581C6 /* view */,
+				60C86667228683D700C581C6 /* Assets.xcassets */,
+				60C8664F2285D0F000C581C6 /* fonts */,
 			);
 			path = Sargazapp;
+			sourceTree = "<group>";
+		};
+		60C8664F2285D0F000C581C6 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				60C866502285D14300C581C6 /* Rwanda Tyler Font.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		60C866522285D75C00C581C6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				60CF02C42287BDD70027C4AA /* RoundImageView.swift */,
+				60C8665D228603CF00C581C6 /* RoundedShadowButton.swift */,
+				60C8666D228692AE00C581C6 /* RoundedShadowButton2.swift */,
+				60CF02B32286B3EA0027C4AA /* RoundedShadowButton3.swift */,
+				60CF02CE2287CFA90027C4AA /* textfield.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		60C8666222867FE000C581C6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				60C86663228680D600C581C6 /* HomeVC.swift */,
+				60C86665228682D900C581C6 /* UsosVC.swift */,
+				60C8666922868E5400C581C6 /* PlayaVC.swift */,
+				60CF02B52286C1AD0027C4AA /* ContainerVC.swift */,
+				60CF02B82286C3D60027C4AA /* LeftSidePanelVC.swift */,
+				60CF02B72286C3D60027C4AA /* LoginVC.swift */,
+				60CF02C62287CA210027C4AA /* mapaVC.swift */,
+				60CF02D02287E9BC0027C4AA /* registroVC.swift */,
+				60CF02D22287EB240027C4AA /* reportarVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		60CF02AE2286B25F0027C4AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				60CF02B02286B27B0027C4AA /* UIViewControllerExt.swift */,
+				60CF02AF2286B27B0027C4AA /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		60CF02BF228738C10027C4AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				603673512288E15E00C5B9B0 /* iCarousel.h */,
+				603673522288E15E00C5B9B0 /* iCarousel.m */,
+				60CF02C0228739150027C4AA /* DataService.swift */,
+				60CF02C1228739150027C4AA /* UpdateService.swift */,
+				603673502288E15D00C5B9B0 /* Sargazapp-Bridging-Header.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EB35899A6F68703F97842C3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFF675C6D93EE8124759F4D7 /* Pods-Sargazapp.debug.xcconfig */,
+				37B76F8CD2C427722906B26F /* Pods-Sargazapp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +253,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60C8664C2285C24400C581C6 /* Build configuration list for PBXNativeTarget "Sargazapp" */;
 			buildPhases = (
+				959CD9BFA6B6BA2BEC611CEC /* [CP] Check Pods Manifest.lock */,
 				60C866362285C24100C581C6 /* Sources */,
 				60C866372285C24100C581C6 /* Frameworks */,
 				60C866382285C24100C581C6 /* Resources */,
+				0AE544DE7794F7495D443EFB /* [CP] Embed Pods Frameworks */,
+				6014749B22885DE10070E849 /* Embed Frameworks */,
+				89ED37F64739FAF87B1903C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +282,12 @@
 				TargetAttributes = {
 					60C866392285C24100C581C6 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,20 +315,126 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C866482285C24400C581C6 /* LaunchScreen.storyboard in Resources */,
-				60C866452285C24400C581C6 /* Assets.xcassets in Resources */,
+				60C866512285D17000C581C6 /* Rwanda Tyler Font.ttf in Resources */,
+				60C86668228683D800C581C6 /* Assets.xcassets in Resources */,
+				603673562288F22B00C5B9B0 /* WalkThroughCollectionViewCell.xib in Resources */,
 				60C866432285C24100C581C6 /* Main.storyboard in Resources */,
+				60CF02BC2286C8750027C4AA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AE544DE7794F7495D443EFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sargazapp/Pods-Sargazapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sargazapp/Pods-Sargazapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89ED37F64739FAF87B1903C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sargazapp/Pods-Sargazapp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sargazapp/Pods-Sargazapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		959CD9BFA6B6BA2BEC611CEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sargazapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		60C866362285C24100C581C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60C866402285C24100C581C6 /* ViewController.swift in Sources */,
+				60CF02C3228739150027C4AA /* UpdateService.swift in Sources */,
+				60CF02B12286B27B0027C4AA /* UIViewExt.swift in Sources */,
+				60C8666A22868E5400C581C6 /* PlayaVC.swift in Sources */,
+				60C86666228682D900C581C6 /* UsosVC.swift in Sources */,
+				60C86664228680D600C581C6 /* HomeVC.swift in Sources */,
+				603673572288F22B00C5B9B0 /* WalkThroughCollectionViewCell.swift in Sources */,
+				60CF02B22286B27B0027C4AA /* UIViewControllerExt.swift in Sources */,
 				60C8663E2285C24100C581C6 /* AppDelegate.swift in Sources */,
+				600DABE62286A677009740C4 /* Alertable.swift in Sources */,
+				60CF02B62286C1AD0027C4AA /* ContainerVC.swift in Sources */,
+				60CF02BA2286C3D70027C4AA /* LeftSidePanelVC.swift in Sources */,
+				60CF02B42286B3EA0027C4AA /* RoundedShadowButton3.swift in Sources */,
+				60CF02D12287E9BD0027C4AA /* registroVC.swift in Sources */,
+				60CF02CF2287CFA90027C4AA /* textfield.swift in Sources */,
+				603673592288F36100C5B9B0 /* UPCarouselFlowLayout.swift in Sources */,
+				60C8666E228692AE00C581C6 /* RoundedShadowButton2.swift in Sources */,
+				600DABE72286A677009740C4 /* CenterVCDelegate.swift in Sources */,
+				603673532288E15E00C5B9B0 /* iCarousel.m in Sources */,
+				60C8665E228603CF00C581C6 /* RoundedShadowButton.swift in Sources */,
+				60CF02B92286C3D70027C4AA /* LoginVC.swift in Sources */,
+				60CF02C72287CA210027C4AA /* mapaVC.swift in Sources */,
+				60CF02D32287EB240027C4AA /* reportarVC.swift in Sources */,
+				60CF02C2228739150027C4AA /* DataService.swift in Sources */,
+				60CF02C52287BDD70027C4AA /* RoundImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +515,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -271,6 +570,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -280,8 +580,12 @@
 		};
 		60C8664D2285C24400C581C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF675C6D93EE8124759F4D7 /* Pods-Sargazapp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Sargazapp/Sargazapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VN5GMGF395;
 				INFOPLIST_FILE = Sargazapp/Info.plist;
@@ -289,8 +593,63 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"RevealingSplashView\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Sargazapp.Sargazapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sargazapp/Services/Sargazapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +657,12 @@
 		};
 		60C8664E2285C24400C581C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B76F8CD2C427722906B26F /* Pods-Sargazapp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Sargazapp/Sargazapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VN5GMGF395;
 				INFOPLIST_FILE = Sargazapp/Info.plist;
@@ -307,8 +670,62 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"RevealingSplashView\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Sargazapp.Sargazapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sargazapp/Services/Sargazapp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
